@@ -1,0 +1,63 @@
+body{
+    background-color:black;
+    color:orange;
+    font-family: 'Creepster', cursive;
+    text-align: center;
+}
+
+h1{
+    font-size: 5em;
+}
+
+h2{
+    color:white;
+    font-size:2em;
+}
+
+form{
+    border-color:orange;
+    border-style:solid;
+    font-size:2em;
+    background-image:url("https://s3.amazonaws.com/spoonflower/public/design_thumbnails/0466/6760/rrrbats.pattern.grey_shop_preview.png");
+    background-size:cover;
+}
+
+input{
+    color:black;
+    font-family: 'Creepster', cursive;
+    font-size:1em;
+    margin:5px;
+}
+
+button {
+	background-color:#f07000;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #f5c431;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:17px;
+	padding:16px 31px;
+    text-decoration:none;
+    margin:20px;
+    text-shadow:0px 1px 0px #c76820;
+    font-family: 'Creepster', cursive;
+}
+button:hover {
+	background-color:#bd692a;
+}
+button:active {
+	position:relative;
+	top:1px;
+}
+
+.noShow{
+    display:none;
+}
+
+.show{
+    display:inline;
+    height:300px;
+}
